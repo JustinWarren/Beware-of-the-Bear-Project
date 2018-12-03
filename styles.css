@@ -1,0 +1,116 @@
+/*Google Fonts are Abril Fatface(Heading) & Poppins(text)*/
+
+*{
+	padding:0;
+	margin:0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #355948;
+}
+
+h1 {
+	text-align:center;
+	padding: 35px;
+	font-size:3em;
+	letter-spacing:3px;
+	color:white;
+	font-family:"Abril Fatface", cursive, sans-serif;
+}
+
+p {
+	font-family:'Poppins', sans-serif;
+	text-align:center;
+	font-size:1.5em;
+	color:white;
+	font-weight: bold;
+}
+
+a {
+	text-decoration: none;
+	color:white;
+}
+
+img {
+	border-radius:5px;
+}
+
+label {
+	color:white;
+	font-family:'Poppins', sans-serif;
+	font-size:1.25em;
+}
+
+.form {
+	border: 2px solid #77A892;
+	padding: 125px;
+	margin:0 auto;
+	width:800px;
+	border-radius:5px;
+	background-color:#477344; 
+}
+
+.form-blurb {
+	font-size:1.25em;
+	text-align: center;
+}
+
+
+input[type=text], select {
+	width:100%;
+	padding:10px 15px;
+	display:block;
+	margin: 10px 0;
+	border-radius:5px;
+}
+
+button {
+	width:100%;
+	padding:10px 15px;
+	display:block;
+	margin: 25px 0 0 0;
+	border-radius:5px;
+}
+
+.hello {
+	font-size:22px;
+}
+
+#bear-pic {
+	text-align: center;
+}
+
+#bear-blurb {
+	margin: 10 auto;
+	text-align:left;
+	width:800px;
+	padding:50px 10px;
+	display:inline-block;
+}
+
+#map {
+	height:90vh;
+	padding: 125px;
+	margin:50px auto;
+	width:800px;
+	border-radius:5px;
+	display:none;
+}
+
+#map-blurb {
+	display:none;
+	width:800px;
+	text-align: left;
+}
+
+
+#map-text {
+	text-align:left;
+	width:800px;
+	padding:30px 10px 0 10px;
+	display:none;	
+	margin:0 auto;
+}
+*/
+/*Credits to W3schools for all the help!*/

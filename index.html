@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="styles.css">
+		<link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Poppins:300" rel="stylesheet">
+		<title>Beware of the Bear</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	</head>
+</html>
+<body>
+		<h1>Beware of the Bear</h1>
+		<div class="form">
+			<p class="form-blurb">Please enter your name and select your region.</p>
+			<br>
+			<form>
+				<label>Name:</label>
+				<input type="text" placeholder="Your name..." id="username">
+				<label>Region:</label>
+				<select name="region" id="region">
+					<option value="mid-atlantic">Mid-Atlantic</option>
+					<option value="south">South</option>
+					<option value="midwest">Midwest</option>
+					<option value="rockies">Rockies</option>
+					<option value="west coast">West Coast</option>
+					<option value="alaska">Alaska</option>
+				</select>
+				<button type="button" id="submit">Submit</button>
+			</form>
+		</div>
+		<div id="bear-pic">
+			<p id="bear-blurb"></p>
+		</div>
+		<div>
+			<p id="map-text">If you are interested in seeing bears in the wild (safely!) consider taking a trip to Knight Inlet in British Columbia. Learn more at <br><a href="www.grizzlytours.com">www.grizzlytours.com<a><p>
+		</div>
+		<div id="map">
+		 <!--Location is in British Columbia -- https://www.grizzlytours.com/-->
+		</div>
+		<!--JQuery File-->
+		<script src="js/jquery-3.3.1.min.js"></script>
+
+		<!--Javascript File-->
+		<script src="js/main.js"></script>
+
+		<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCeKbJ72Lq2eetgke_8sv1H22Co0JF8ykA&callback=initMap" type="text/javascript"></script>
+
+
+<!--  Thought:  Would I maybe just create a div for each scenario - <p> and <img> and then have it display as hidden?  Then I could use JQuery to have it display using an if/else statement?
+
+Key questions:
+1.)  How do I store a variable from an input?
+2.)  How do I store a variable from a selection from a dropdown?
+3.)  On clicking the submit form, how do I get the proper information to display that includes
+	a paragraph with the var from the input and the var from the selection with a corresponding photo?
+4.)  Also, how I get the Google Map to appear once the form is submitted?
+
+
+ -->
+</body>
