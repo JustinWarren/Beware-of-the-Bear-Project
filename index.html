@@ -28,8 +28,16 @@
 				<button type="button" id="submit">Submit</button>
 			</form>
 		</div>
+		<p id="bear-blurb"></p>
 		<div id="bear-pic">
-			<p id="bear-blurb"></p>
+		</div>
+		<div id="weather">
+			<p>Going camping? Find your current weather:</p>
+			<form>
+				<input id="searchInput" placeholder="Enter city name"></input>
+				<button id="searchButton">Search</button>
+			</form>
+			<div id="weather-result"></div>
 		</div>
 		<div>
 			<p id="map-text">If you are interested in seeing bears in the wild (safely!) consider taking a trip to Knight Inlet in British Columbia. Learn more at <br><a href="www.grizzlytours.com">www.grizzlytours.com<a><p>
@@ -42,19 +50,8 @@
 
 		<!--Javascript File-->
 		<script src="js/main.js"></script>
-
+		<!-- Google Maps script -->
 		<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCeKbJ72Lq2eetgke_8sv1H22Co0JF8ykA&callback=initMap" type="text/javascript"></script>
 
 
-<!--  Thought:  Would I maybe just create a div for each scenario - <p> and <img> and then have it display as hidden?  Then I could use JQuery to have it display using an if/else statement?
-
-Key questions:
-1.)  How do I store a variable from an input?
-2.)  How do I store a variable from a selection from a dropdown?
-3.)  On clicking the submit form, how do I get the proper information to display that includes
-	a paragraph with the var from the input and the var from the selection with a corresponding photo?
-4.)  Also, how I get the Google Map to appear once the form is submitted?
-
-
- -->
 </body>

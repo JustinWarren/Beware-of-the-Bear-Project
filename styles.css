@@ -42,6 +42,14 @@ label {
 	font-size:1.25em;
 }
 
+input[type=text], select {
+	width:100%;
+	padding:10px 15px;
+	display:block;
+	margin: 10px 0;
+	border-radius:5px;
+}
+
 .form {
 	border: 2px solid #77A892;
 	padding: 125px;
@@ -57,15 +65,7 @@ label {
 }
 
 
-input[type=text], select {
-	width:100%;
-	padding:10px 15px;
-	display:block;
-	margin: 10px 0;
-	border-radius:5px;
-}
-
-button {
+#submit {
 	width:100%;
 	padding:10px 15px;
 	display:block;
@@ -77,16 +77,43 @@ button {
 	font-size:22px;
 }
 
+#weather {
+	border: 2px solid #77A892;
+	padding: 40px 125px 40px 125px;
+	margin:10px auto;
+	width:800px;
+	border-radius:5px;
+	background-color:#477344;
+	display:none;
+}
+
+#searchInput {
+	width:100%;
+	padding:10px 15px;
+	display:block;
+	margin: 25px 0;
+	border-radius:5px;
+}
+
+#searchButton {
+	width:100%;
+	margin:10px 0;
+	padding:10px 15px;
+	display:block;
+	border-radius:5px;
+}
+
 #bear-pic {
 	text-align: center;
+	padding:25px;
 }
 
 #bear-blurb {
-	margin: 10 auto;
+	margin: 10px auto;
 	text-align:left;
 	width:800px;
 	padding:50px 10px;
-	display:inline-block;
+	display:block;
 }
 
 #map {
@@ -104,6 +131,14 @@ button {
 	text-align: left;
 }
 
+.weather-form {
+	width:800px;
+}
+
+.weather-button {
+	width:50px;
+}
+
 
 #map-text {
 	text-align:left;
@@ -112,5 +147,5 @@ button {
 	display:none;	
 	margin:0 auto;
 }
-*/
+
 /*Credits to W3schools for all the help!*/
